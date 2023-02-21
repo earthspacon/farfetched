@@ -1,5 +1,19 @@
 # @farfetched/core
 
+## 0.8.0
+
+### Minor Changes
+
+- f04aa0d: Allow to pass any string as `query` in `createJson*`
+- 573ad52: Add `.$idle` _Store_ that shows if fetching has started or not in _Remote Operations_
+- 19e9626: Mark `externalCache` as deprecated
+
+### Patch Changes
+
+- 8b76a37: Fix `.$stale` in initial state, now it is `true`
+- 25c051f: Fix error type of _Mutations_ and _Queries_ create by `createJson*` factories
+- 90be139: Add utility types for _Remote Operations_ to public API
+
 ## 0.7.2
 
 ### Patch Changes
